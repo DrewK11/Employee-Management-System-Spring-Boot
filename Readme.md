@@ -1,5 +1,5 @@
 // README.md
-# Employee Management System as a Spring Boot exercise
+# Employee Management System
 ### Introduction
 This REST API was made with Spring Boot 3.0, and features CRUD operations to create, read, update, and delete employees. Also included are unit tests for the Service and Controller layer, as well as integration tests. The Builder pattern was used for the Employee DTO, and Jib was used to containerize everything.
 ### Building & Running 
