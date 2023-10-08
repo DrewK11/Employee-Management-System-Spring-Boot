@@ -6,9 +6,11 @@ This REST API was made with Spring Boot 3.0, and features CRUD operations to cre
 * Clone this repository [here](https://github.com/DrewK11/Spring-Boot-REST-api.git).
 * Cd into the project root folder.
 * Then we can use Spring Boot & Maven to run the app like so:
-	mvn clean spring-boot:run
+```
+mvn clean spring-boot:run
+```
 ### Usage
-* Once the app is running, you can make requests to the API. Here are some examples
+* Once the app is running, you can make requests to the API. Here are some examples:
 ### API Endpoints
 | HTTP Verbs | Endpoints | Action |
 | --- | --- | --- |
@@ -19,7 +21,7 @@ This REST API was made with Spring Boot 3.0, and features CRUD operations to cre
 | DELETE | /api/employees/{id} | To delete an employee with the specified {id} |
 
 * Please include a JSON body when creating or updating an employee. Please see below for an example:
-'''
+``` 
 {
     "firstName": "John",
     "lastName": "Doe",
@@ -27,7 +29,7 @@ This REST API was made with Spring Boot 3.0, and features CRUD operations to cre
     "age": 20,
     "phone": "012345678910"
 }
-'''
+```
 ### Technologies Used
 * Spring Boot 3.0
 * Java 17
